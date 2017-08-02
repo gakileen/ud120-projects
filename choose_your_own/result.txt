@@ -1,0 +1,40 @@
+=== svm 
+training time: 0.017 s
+predicting time: 0.001 s
+accuracy: 0.932
+
+
+=== decition_tree  min_samples_split=40
+training time: 0.003 s
+predicting time: 0.0 s
+accuracy: 0.912
+
+
+=== nb
+training time: 0.001 s
+predicting time: 0.0 s
+accuracy: 0.884
+
+
+=== knn  uniform
+training time: 0.003 s
+predicting time: 0.002 s
+accuracy: 0.928
+
+
+=== knn  distance
+training time: 0.001 s
+predicting time: 0.003 s
+accuracy: 0.94
+
+
+=== Ada boosting  n_estimators=100
+training time: 0.246 s
+predicting time: 0.008 s
+accuracy: 0.924
+
+
+=== Random Forest  n_estimators=10
+training time: 0.032 s
+predicting time: 0.007 s
+accuracy: 0.92

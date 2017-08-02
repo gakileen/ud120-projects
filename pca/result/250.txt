@@ -1,0 +1,38 @@
+2017-08-02 14:58:44,218 Loading LFW people faces from /Users/ac/scikit_learn_data/lfw_home
+Total dataset size:
+n_samples: 1288
+n_features: 1850
+n_classes: 7
+Extracting the top 250 eigenfaces from 966 faces
+[ 0.19346527  0.15116846]
+done in 0.203s
+Projecting the input data on the eigenfaces orthonormal basis
+done in 0.026s
+Fitting the classifier to the training set
+done in 27.133s
+Best estimator found by grid search:
+SVC(C=1000.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Predicting the people names on the testing set
+done in 0.076s
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.53      0.69      0.60        13
+     Colin Powell       0.75      0.93      0.83        60
+  Donald Rumsfeld       0.89      0.59      0.71        27
+    George W Bush       0.92      0.90      0.91       146
+Gerhard Schroeder       0.83      0.80      0.82        25
+      Hugo Chavez       0.80      0.53      0.64        15
+       Tony Blair       0.78      0.78      0.78        36
+
+      avg / total       0.84      0.83      0.83       322
+
+[[  9   2   1   1   0   0   0]
+ [  1  56   0   2   0   1   0]
+ [  3   3  16   3   0   0   2]
+ [  3   7   1 131   1   1   2]
+ [  0   1   0   1  20   0   3]
+ [  0   4   0   1   1   8   1]
+ [  1   2   0   3   2   0  28]]

@@ -1,0 +1,16 @@
+=== default (10% feature)
+training time: 72.851 s
+predicting time: 0.034 s
+accuracy: 0.989192263936
+
+
+=== min_samples_split=40   10% feature
+training time: 73.165 s
+predicting time: 0.033 s
+accuracy: 0.977815699659
+
+
+=== min_samples_split=40   1% feature
+training time: 4.509 s
+predicting time: 0.003 s
+accuracy: 0.967007963595

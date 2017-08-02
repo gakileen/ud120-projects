@@ -41,3 +41,27 @@ labels_train   = labels_train[:150]
 
 
 
+from sklearn.tree import DecisionTreeClassifier
+clf = DecisionTreeClassifier(min_samples_split=40)
+clf.fit(features_train, labels_train)
+
+
+from sklearn.metrics import accuracy_score
+print accuracy_score(clf.predict(features_test), labels_test)
+print accuracy_score(clf.predict(features_train), labels_train)
+
+
+list_fi = []
+index_fi = 0
+for fi in clf.feature_importances_:
+	if fi > 0.2:
+		list_fi.append((fi, index_fi))
+	index_fi += 1
+
+list_fi = sorted(list_fi, key=lambda a: a[0], reverse=True)
+
+max_fi = list_fi[0]
+
+print list_fi
+print max_fi
+print vectorizer.get_feature_names()[max_fi[1]]

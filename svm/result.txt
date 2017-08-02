@@ -1,0 +1,58 @@
+
+/usr/local/lib/python2.7/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+
+
+
+===linear  full_data
+training time: 180.573 s
+predicting time: 16.759 s
+accuracy: 0.984072810011
+
+
+===linear  less_data  1%
+training time: 0.097 s
+predicting time: 1.023 s
+accuracy: 0.884527872582
+
+
+===RBF  full_data  default C
+training time: 1066.191 s
+predicting time: 102.217 s
+accuracy: 0.492036405006
+
+
+===RBF  full_data  C = 10000
+training time: 116.291 s
+predicting time: 10.472 s
+accuracy: 0.990898748578
+
+
+===RBF  less_data  1%  default C
+training time: 0.107 s
+predicting time: 1.131 s
+accuracy: 0.616040955631
+
+
+===RBF  ess_data  1%  diffrent C
+C=10
+training time: 0.103 s
+predicting time: 1.149 s
+accuracy: 0.616040955631
+
+C=100
+training time: 0.112 s
+predicting time: 1.168 s
+accuracy: 0.616040955631
+
+C=1000
+training time: 0.106 s
+predicting time: 1.072 s
+accuracy: 0.821387940842
+
+C=10000
+training time: 0.097 s
+predicting time: 0.839 s
+accuracy: 0.892491467577
