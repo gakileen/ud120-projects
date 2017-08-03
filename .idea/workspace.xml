@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e3f1f2-ee9e-47cb-b2e5-8cc9506275b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/choose_your_own/your_algorithm.py" afterPath="$PROJECT_DIR$/choose_your_own/your_algorithm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" afterPath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decision_tree/dt_author_id.py" afterPath="$PROJECT_DIR$/decision_tree/dt_author_id.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature_selection/find_signature.py" afterPath="$PROJECT_DIR$/feature_selection/find_signature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/k_means/k_means_cluster.py" afterPath="$PROJECT_DIR$/k_means/k_means_cluster.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naive_bayes/nb_author_id.py" afterPath="$PROJECT_DIR$/naive_bayes/nb_author_id.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outliers/enron_outliers.py" afterPath="$PROJECT_DIR$/outliers/enron_outliers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outliers/outlier_cleaner.py" afterPath="$PROJECT_DIR$/outliers/outlier_cleaner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outliers/outlier_removal_regression.py" afterPath="$PROJECT_DIR$/outliers/outlier_removal_regression.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/eigenfaces.py" afterPath="$PROJECT_DIR$/pca/eigenfaces.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regression/finance_regression.py" afterPath="$PROJECT_DIR$/regression/finance_regression.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svm/svm_author_id.py" afterPath="$PROJECT_DIR$/svm/svm_author_id.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text_learning/vectorize_text.py" afterPath="$PROJECT_DIR$/text_learning/vectorize_text.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/email_preprocess.py" afterPath="$PROJECT_DIR$/tools/email_preprocess.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/parse_out_email_text.py" afterPath="$PROJECT_DIR$/tools/parse_out_email_text.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validation/validate_poi.py" afterPath="$PROJECT_DIR$/validation/validate_poi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,53 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eigenfaces.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pca/eigenfaces.py">
+      <file leaf-file-name="validate_poi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validation/validate_poi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
-                <element signature="e#494#515#0" expanded="true" />
+                <element signature="e#233#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lfw.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/datasets/lfw.py">
+      <file leaf-file-name="dt_author_id.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="317" column="12" lean-forward="false" selection-start-line="317" selection-start-column="12" selection-end-line="317" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/site-packages/sklearn/datasets/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="472" column="27" lean-forward="false" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiarray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/160944109/numpy/core/multiarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="5579" column="15" lean-forward="false" selection-start-line="5579" selection-start-column="15" selection-end-line="5579" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/160944109/__builtin__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="3916" column="8" lean-forward="false" selection-start-line="3916" selection-start-column="8" selection-end-line="3916" selection-end-column="8" />
+            <state relative-caret-position="630">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -94,14 +51,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pca/eigenfaces.py" />
+        <option value="$PROJECT_DIR$/decision_tree/dt_author_id.py" />
+        <option value="$PROJECT_DIR$/validation/validate_poi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1450" />
-    <option name="y" value="-153" />
-    <option name="width" value="1810" />
-    <option name="height" value="1036" />
+    <option name="x" value="1440" />
+    <option name="y" value="-158" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -128,7 +87,17 @@
             <path>
               <item name="ud120-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="ud120-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="choose_your_own" type="462c0819:PsiDirectoryNode" />
+              <item name="decision_tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ud120-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ud120-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ud120-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ud120-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,10 +262,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pca/eigenfaces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#494#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/validate_poi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#233#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
